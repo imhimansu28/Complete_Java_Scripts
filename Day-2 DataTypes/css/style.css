@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding:0px 150px;
+    margin: 0;
+    line-height: 1.8em;
+    word-spacing: 0.2em;
+    background-color: #ffccaa;
+    font-size: 18px;
+}
+h1{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:20px 0px;
+    font-size: 2em;
+    font-family:'Gill Sans', sans-serif;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body{
+        padding:10px 15px;
+        margin: 0;
+        line-height: 1.8em;
+        word-spacing: 0.2em;
+        background-color: #ffccaa;
+        font-size: 16px;
+    }
+}
